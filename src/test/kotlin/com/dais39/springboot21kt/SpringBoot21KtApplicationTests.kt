@@ -1,4 +1,4 @@
-package com.dais39.spring21kt
+package com.dais39.springboot21kt
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class Spring21KtApplicationTests {
+class SpringBoot21KtApplicationTests {
 
     @Test
     fun contextLoads() {

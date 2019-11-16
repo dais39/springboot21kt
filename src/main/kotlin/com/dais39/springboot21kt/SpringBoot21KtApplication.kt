@@ -1,9 +1,8 @@
-package com.dais39.spring21kt
+package com.dais39.springboot21kt
 
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.ConfigurationProperties
-import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.boot.runApplication
 import org.springframework.stereotype.Component
 
@@ -15,10 +14,10 @@ import org.springframework.stereotype.Component
 
 @SpringBootApplication
 //@EnableConfigurationProperties(SampleConfig::class)
-class Spring21KtApplication
+class SpringBoot21KtApplication
 
 fun main(args: Array<String>) {
-    runApplication<Spring21KtApplication>(*args)
+    runApplication<SpringBoot21KtApplication>(*args)
 }
 
 @Component
